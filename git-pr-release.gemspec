@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency 'octokit', '5.0.0'
+  spec.add_dependency 'octokit', '< 5.0.0'
   spec.add_dependency 'highline'
   spec.add_dependency 'colorize'
   spec.add_dependency 'diff-lcs'
